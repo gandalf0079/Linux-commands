@@ -30,7 +30,6 @@ Anyone. Absolutely anyone can contribute to this repository. Please check the ru
 - Fork this repository and give a star.
 - Try to provide examples for that command line.
 - Once go through the raw file of `Basic_commands.md` to get the gist of formatting required.
-- Add it to the`Basic_commands.md` file.
 - Create a Pull request
 - Feel free to improve the README.md
 
