@@ -39,3 +39,15 @@
 - `cd`: _to go to a directory_
 
 - `cd ..`: _go back_
+
+- `touch`: _create file_
+
+- `cp`: _copy file to a location_
+
+- `mv`: _move file to a location_
+
+- `locate`: _locate a file in Linux system_
+
+- `cat`: _display contents of a file_
+
+- `sudo`: _for command to be done in root or administrative privileges_
