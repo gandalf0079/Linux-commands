@@ -1,5 +1,6 @@
-1. pwd : to print current directory location
-2. ls : to list contents of the current directory
+<h1 align="center">Basic Linux/Unix Commands</h1>
+1. `pwd` : _to print current directory location_
+2. `ls` : _to list contents of the current directory_
     - flags with ls:-
         - -a: list all files including hidden ones (starting with '.')
         - --color: colored list[=always/never/auto]
