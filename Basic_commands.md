@@ -1,4 +1,5 @@
 <h1 align="center">Basic Linux/Unix Commands</h1>
+
 - `pwd` : _to print current directory location_
 
 - `ls` : _to list contents of the current directory_
