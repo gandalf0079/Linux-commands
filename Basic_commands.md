@@ -51,3 +51,23 @@
 - `cat`: _display contents of a file_
 
 - `sudo`: _for command to be done in root or administrative privileges_
+
+- `mkdir`: _for creating a folder_
+
+- `rm -rf`: _for deleting a folder along with its files permanently_
+
+- `man`: _for showing the manual pages of a command_
+
+- `df`: _to see available disk space in each partition of system_
+
+- `du`: _to know the disk usage of a file in your system_
+
+- `tar`: _used to compress and decompress various tar archives_
+
+- `uname -a`: _to show the system information_
+
+- `chmod`: _to make a file executable_
+
+- `ping`: _to check connection to your server_
+
+- `clear`: _to clear the terminal_
