@@ -1,21 +1,40 @@
 <h1 align="center">Basic Linux/Unix Commands</h1>
-1. `pwd` : _to print current directory location_
-2. `ls` : _to list contents of the current directory_
+- `pwd` : _to print current directory location_
+
+- `ls` : _to list contents of the current directory_
+
     - flags with ls:-
-        - -a: list all files including hidden ones (starting with '.')
-        - --color: colored list[=always/never/auto]
-        - -l: list with long format
-        - -la: list long format along with hidden files
-        - -lh: list long format with readable file size
-        - -ls: list long format with file size
-        - -r: list in reverse order
-        - -R: list recursively directory tree
-        - -s: list file size
-        - -S: sort by file size
-        - -t: sort by time & date
-        - -X: sort by extension name
-        - ~: list user's home directory
-        - -d */: list directories only
-        - -d $PWD/*: list files and directories with full path
-3. cd: to go to a directory
-4. cd ..: go back
+    
+        - `-a`: _list all files including hidden ones (starting with '.')_
+        
+        - `--color`: _colored list[=always/never/auto]_
+        
+        - `-l`: _list with long format_
+        
+        - `-la`: _list long format along with hidden files_
+        
+        - `-lh`: _list long format with readable file size_
+        
+        - `-ls`: _list long format with file size_
+        
+        - `-r`: _list in reverse order_
+        
+        - `-R`: _list recursively directory tree_
+        
+        - `-s`: _list file size_
+        
+        - `-S`: _sort by file size_
+        
+        - `-t`: _sort by time & date_
+        
+        - `-X`: _sort by extension name_
+        
+        - `~`: _list user's home directory_
+        
+        - `-d */`: _list directories only_
+        
+        - `-d $PWD/*`: _list files and directories with full path_
+
+- `cd`: _to go to a directory_
+
+- `cd ..`: _go back_
