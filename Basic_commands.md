@@ -1,3 +1,4 @@
+
 <h1 align="center">Basic Linux/Unix Commands</h1>
 
 - `pwd` : _to print current directory location_
@@ -54,7 +55,21 @@
 
 - `mkdir`: _for creating a folder_
 
-- `rm -rf`: _for deleting a folder along with its files permanently_
+- `rm`: _for deleting folder or file_
+
+    - flags with rm:-
+        - `-f, --force`: _ignore nonexistent files and arguments, never prompt_
+        - `-i`: _prompt before every removal_
+        - `I`: _prompt once before removing more than three files, or when removing recursively; less intrusive than -i, while still giving protection against most mistakes_
+		- `--interactive[=WHEN]`: _prompt according to WHEN: never, once (-I), or always (-i); without WHEN, prompt always_
+		- `--one-file-system`: _when removing a hierarchy recursively, skip any directory that is on a file system different from that of the corresponding command line argument_
+	      - `--no-preserve-root`: _do not treat '/' specially_
+	      - `--preserve-root`: _do not remove '/' (default)_
+		  - `-r, -R, --recursive`: _remove directories and their contents recursively_
+		  - `-d, --dir`: _remove empty directories_
+		  - `-v, --verbose`: _explain what is being done_
+		  - `--help`: _display this help and exit_
+		  - `--version`: _output version information and exit_
 
 - `man`: _for showing the manual pages of a command_
 
@@ -72,4 +87,18 @@
 
 - `clear`: _to clear the terminal_
 
-- `ip address`: _show ip address information from each network interfaces_
+- `dig domain`: _get DNS for domain_
+
+- `wget -c file`: _continue stopped download_
+
+- `wget -r url`: _recursively download files from url_
+
+- `date`: _show current date/time_
+
+- `uptime`: _show uptime_
+
+- `whoami`: _who are you logged as_
+
+- `ssh user@host`: _connect to host as user_
+
+- `ssh -p port user@host`: _connect using port p_
