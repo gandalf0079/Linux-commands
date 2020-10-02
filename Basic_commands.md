@@ -71,3 +71,7 @@
 - `ping`: _to check connection to your server_
 
 - `clear`: _to clear the terminal_
+
+- `kill`: _to send a signal to process. by default, the message is sent as termination signal_
+
+- `echo`: _to display line of text/string that are passed as an argument_
