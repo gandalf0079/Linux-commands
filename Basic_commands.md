@@ -87,6 +87,10 @@
 
 - `clear`: _to clear the terminal_
 
+- `kill`: _to send a signal to process. by default, the message is sent as termination signal_
+
+- `echo`: _to display line of text/string that are passed as an argument_
+
 - `grep`: _to search a file for particular pattern of characters_
 
     - flags with grep:-
@@ -173,4 +177,4 @@
     - `--no-wall`: _don't send wall message before halt/power-off/reboot_
 	
     - `-c`: _cancel a pending shutdown_
-  
+ 
