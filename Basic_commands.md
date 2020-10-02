@@ -61,8 +61,8 @@
         - `-f, --force`: _ignore nonexistent files and arguments, never prompt_
         - `-i`: _prompt before every removal_
         - `I`: _prompt once before removing more than three files, or when removing recursively; less intrusive than -i, while still giving protection against most mistakes_
-		- `--interactive[=WHEN]`: _prompt according to WHEN: never, once (-I), or always (-i); without WHEN, prompt always_
-		- `--one-file-system`: _when removing a hierarchy recursively, skip any directory that is on a file system different from that of the corresponding command line argument_
+	     - `--interactive[=WHEN]`: _prompt according to WHEN: never, once (-I), or always (-i); without WHEN, prompt always_
+	     - `--one-file-system`: _when removing a hierarchy recursively, skip any directory that is on a file system different from that of the corresponding command line argument_
 	      - `--no-preserve-root`: _do not treat '/' specially_
 	      - `--preserve-root`: _do not remove '/' (default)_
 		  - `-r, -R, --recursive`: _remove directories and their contents recursively_
