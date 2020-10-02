@@ -1,3 +1,4 @@
+
 <h1 align="center">Basic Linux/Unix Commands</h1>
 
 - `pwd` : _to print current directory location_
@@ -54,7 +55,21 @@
 
 - `mkdir`: _for creating a folder_
 
-- `rm -rf`: _for deleting a folder along with its files permanently_
+- `rm`: _for deleting folder or file_
+
+    - flags with rm:-
+        - `-f, --force`: _ignore nonexistent files and arguments, never prompt_
+        - `-i`: _prompt before every removal_
+        - `I`: _prompt once before removing more than three files, or when removing recursively; less intrusive than -i, while still giving protection against most mistakes_
+		- `--interactive[=WHEN]`: _prompt according to WHEN: never, once (-I), or always (-i); without WHEN, prompt always_
+		- `--one-file-system`: _when removing a hierarchy recursively, skip any directory that is on a file system different from that of the corresponding command line argument_
+	      - `--no-preserve-root`: _do not treat '/' specially_
+	      - `--preserve-root`: _do not remove '/' (default)_
+		  - `-r, -R, --recursive`: _remove directories and their contents recursively_
+		  - `-d, --dir`: _remove empty directories_
+		  - `-v, --verbose`: _explain what is being done_
+		  - `--help`: _display this help and exit_
+		  - `--version`: _output version information and exit_
 
 - `man`: _for showing the manual pages of a command_
 
@@ -82,6 +97,80 @@
         
         - `-r: _recursively read all the files under each directory_
         
+- `dig domain`: _get DNS for domain_
+
+- `wget -c file`: _continue stopped download_
+
+- `wget -r url`: _recursively download files from url_
+
+- `date`: _show current date/time_
+
+- `uptime`: _show uptime_
+
+- `whoami`: _who are you logged as_
+
+- `ssh user@host`: _connect to host as user_
+
+- `ssh -p port user@host`: _connect using port p_
+
+- `find` : _to search for files in a directory hierarchy_
+
+    - flags with find:-
+    
+        - `-inum N` : _Search for files with inode number ‘N’_
+                
+        - `-links N` : _Search for files with ‘N’ links_
         
+        - `-print` : _Display the path name of the files found by using the rest of the criteria_
+		
+		- `-empty` : _Search for empty files and directories_
 
+- `tail` : _to output the last part of files_
 
+    - flags with tail:-
+    
+        - `-n` : _print last N number of lines_
+                
+        - `-f` : _for monitoring the file_
+        
+        - `-pid` : _Display the pid_
+
+- `netstat` : _to displays various network related information such as network connections, routing tables, interface statistics, masquerade connections, multicast memberships etc._
+
+    - flags with netstat:-
+    
+        - `-a`: _To List All Network Ports_
+        
+        - `-at`: _To List All TCP Ports_
+        
+        - `-s`: _To Show Statistics for All Ports_
+        
+        - `-au`: _To List UDP Ports connections_
+        
+        - `-l`: _To List all LISTENING Connections_
+        
+        - `-tp`: _To Display Service name with PID_
+        
+        - `-g`: _To Display IPv4 and IPv6 Information_
+
+- `reboot`: _reboot the system_
+
+- `shutdown`: _shut down the system_
+
+  - flags with shutdown:-
+    - `--help`: _show help_
+	
+    - `--halt`: _halt the machine_
+	
+    - `--poweroff`: _power-off the machine_
+	
+    - `--reboot`: _Reboot the machine_
+	
+    - `-h`: _equivalent to --poweroff, overridden by --halt_
+	
+    - `-k`: _don't halt/power-off/reboot, just send warnings_
+	
+    - `--no-wall`: _don't send wall message before halt/power-off/reboot_
+	
+    - `-c`: _cancel a pending shutdown_
+  
