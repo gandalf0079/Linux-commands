@@ -71,3 +71,13 @@
 - `ping`: _to check connection to your server_
 
 - `clear`: _to clear the terminal_
+
+- `chmod`:	_to change permissions files_
+
+- `wc`: _ to print (line   words   letters(including space))_
+
+- `sort`: _to sort the content alphabetically or numerically_
+
+- `grep`: _ to globally search regular expression and print_
+            $grep picture file1	will search for pattern “picture” in file1
+	        If found, will print the entire line containing the pattern
