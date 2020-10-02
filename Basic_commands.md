@@ -71,3 +71,17 @@
 - `ping`: _to check connection to your server_
 
 - `clear`: _to clear the terminal_
+
+- `grep`: _to search a file for particular pattern of characters_
+
+    - flags with grep:-
+    
+        - `-i`: _ignores the cases for matching_
+        
+        - `-n`: _display the matched line and corresponding line number_
+        
+        - `-r: _recursively read all the files under each directory_
+        
+        
+
+
