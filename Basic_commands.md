@@ -87,6 +87,16 @@
 
 - `clear`: _to clear the terminal_
 
+- `grep`: _to search a file for particular pattern of characters_
+
+    - flags with grep:-
+    
+        - `-i`: _ignores the cases for matching_
+        
+        - `-n`: _display the matched line and corresponding line number_
+        
+        - `-r: _recursively read all the files under each directory_
+        
 - `dig domain`: _get DNS for domain_
 
 - `wget -c file`: _continue stopped download_
@@ -163,4 +173,4 @@
     - `--no-wall`: _don't send wall message before halt/power-off/reboot_
 	
     - `-c`: _cancel a pending shutdown_
-   
+  
