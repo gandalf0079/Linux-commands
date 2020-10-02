@@ -71,3 +71,19 @@
 - `ping`: _to check connection to your server_
 
 - `clear`: _to clear the terminal_
+
+- `dig domain`: _get DNS for domain_
+
+- `wget -c file`: _continue stopped download_
+
+- `wget -r url`: _recursively download files from url_
+
+- `date`: _show current date/time_
+
+- `uptime`: _show uptime_
+
+- `whoami`: _who are you logged as_
+
+- `ssh user@host`: _connect to host as user_
+
+- `ssh -p port user@host`: _connect using port p_
