@@ -102,3 +102,25 @@
 - `ssh user@host`: _connect to host as user_
 
 - `ssh -p port user@host`: _connect using port p_
+
+- `find` : _to search for files in a directory hierarchy_
+
+    - flags with find:-
+    
+        - `-inum N` : _Search for files with inode number ‘N’_
+                
+        - `-links N` : _Search for files with ‘N’ links_
+        
+        - `-print` : _Display the path name of the files found by using the rest of the criteria_
+		
+		- `-empty` : _Search for empty files and directories_
+
+- `tail` : _to output the last part of files_
+
+    - flags with tail:-
+    
+        - `-n` : _print last N number of lines_
+                
+        - `-f` : _for monitoring the file_
+        
+        - `-pid` : _Display the pid_
