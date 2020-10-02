@@ -124,3 +124,21 @@
         - `-f` : _for monitoring the file_
         
         - `-pid` : _Display the pid_
+
+- `netstat` : _to displays various network related information such as network connections, routing tables, interface statistics, masquerade connections, multicast memberships etc._
+
+    - flags with netstat:-
+    
+        - `-a`: _To List All Network Ports_
+        
+        - `-at`: _To List All TCP Ports_
+        
+        - `-s`: _To Show Statistics for All Ports_
+        
+        - `-au`: _To List UDP Ports connections_
+        
+        - `-l`: _To List all LISTENING Connections_
+        
+        - `-tp`: _To Display Service name with PID_
+        
+        - `-g`: _To Display IPv4 and IPv6 Information_
