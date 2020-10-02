@@ -71,3 +71,5 @@
 - `ping`: _to check connection to your server_
 
 - `clear`: _to clear the terminal_
+
+- `ip address`: _show ip address information from each network interfaces_
