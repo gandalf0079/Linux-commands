@@ -7,6 +7,7 @@
 <img style="padding:10px;" src="https://img.shields.io/github/forks/Amit00790/Linux-Commands?label=Forks&style=flat-square">
 <img style="padding:10px;" src="https://img.shields.io/github/stars/Amit00790/Linux-Commands?style=flat-square">
 <img style="padding:10px;" src="https://img.shields.io/github/license/Amit00790/Linux-Commands?style=flat-square">
+<img style="padding:10px;" src="http://img.shields.io/github/issues/Amit00790/Linux-Commands?style=flat-square">
 
 
 
@@ -20,21 +21,4 @@ This is list of many useful basic linux command lines.
 
 ## Who can contribute for this repository?
 
-Anyone. Absolutely anyone can contribute to this repository. Please check the rules below before you make pull requests.
-
-# CONTRIBUTION
-
-## How to contribute?
-
-- Add an issue to this repository stating the use of that command line.
-- Fork this repository and give a star.
-- Try to provide examples for that command line.
-- Once go through the raw file of `Basic_commands.md` to get the gist of formatting required.
-- Create a Pull request
-- Feel free to improve the README.md
-
-## Rules
-### Please follow format used in `Basic_commands.md`
-- Please do not spam pull request for the sake of Hacktoberfest.
-- No duplicate entries. Please check if the command is existing before you submit.
-- Star this repository to show appreciation towards public efforts.
+Any
