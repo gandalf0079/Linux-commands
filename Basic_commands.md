@@ -95,7 +95,7 @@
         
         - `-n`: _display the matched line and corresponding line number_
         
-        - `-r: _recursively read all the files under each directory_
+        - `-r`: _recursively read all the files under each directory_
         
 - `dig domain`: _get DNS for domain_
 
