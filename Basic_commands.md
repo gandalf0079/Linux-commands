@@ -142,3 +142,25 @@
         - `-tp`: _To Display Service name with PID_
         
         - `-g`: _To Display IPv4 and IPv6 Information_
+
+- `reboot`: _reboot the system_
+
+- `shutdown`: _shut down the system_
+
+  - flags with shutdown:-
+    - `--help`: _show help_
+	
+    - `--halt`: _halt the machine_
+	
+    - `--poweroff`: _power-off the machine_
+	
+    - `--reboot`: _Reboot the machine_
+	
+    - `-h`: _equivalent to --poweroff, overridden by --halt_
+	
+    - `-k`: _don't halt/power-off/reboot, just send warnings_
+	
+    - `--no-wall`: _don't send wall message before halt/power-off/reboot_
+	
+    - `-c`: _cancel a pending shutdown_
+   
