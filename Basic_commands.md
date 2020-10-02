@@ -103,23 +103,64 @@
 
 - `ssh -p port user@host`: _connect using port p_
 
+- `find` : _to search for files in a directory hierarchy_
+
+    - flags with find:-
+    
+        - `-inum N` : _Search for files with inode number ‘N’_
+                
+        - `-links N` : _Search for files with ‘N’ links_
+        
+        - `-print` : _Display the path name of the files found by using the rest of the criteria_
+		
+		- `-empty` : _Search for empty files and directories_
+
+- `tail` : _to output the last part of files_
+
+    - flags with tail:-
+    
+        - `-n` : _print last N number of lines_
+                
+        - `-f` : _for monitoring the file_
+        
+        - `-pid` : _Display the pid_
+
+- `netstat` : _to displays various network related information such as network connections, routing tables, interface statistics, masquerade connections, multicast memberships etc._
+
+    - flags with netstat:-
+    
+        - `-a`: _To List All Network Ports_
+        
+        - `-at`: _To List All TCP Ports_
+        
+        - `-s`: _To Show Statistics for All Ports_
+        
+        - `-au`: _To List UDP Ports connections_
+        
+        - `-l`: _To List all LISTENING Connections_
+        
+        - `-tp`: _To Display Service name with PID_
+        
+        - `-g`: _To Display IPv4 and IPv6 Information_
+
 - `reboot`: _reboot the system_
 
 - `shutdown`: _shut down the system_
 
-    - flags with shutdown:-
-	- `--help`: _show help_
+  - flags with shutdown:-
+    - `--help`: _show help_
 	
-        - `--halt`: _halt the machine_
+    - `--halt`: _halt the machine_
 	
-        - `--poweroff`: _power-off the machine_
+    - `--poweroff`: _power-off the machine_
 	
-        - `--reboot`: _Reboot the machine_
+    - `--reboot`: _Reboot the machine_
 	
-        - `-h`: _equivalent to --poweroff, overridden by --halt_
+    - `-h`: _equivalent to --poweroff, overridden by --halt_
 	
-        - `-k`: _don't halt/power-off/reboot, just send warnings_
+    - `-k`: _don't halt/power-off/reboot, just send warnings_
 	
-        - `--no-wall`: _don't send wall message before halt/power-off/reboot_
+    - `--no-wall`: _don't send wall message before halt/power-off/reboot_
 	
-        - `-c`: _cancel a pending shutdown_
+    - `-c`: _cancel a pending shutdown_
+   
