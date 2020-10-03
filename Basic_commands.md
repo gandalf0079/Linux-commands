@@ -49,11 +49,25 @@
 
 - `locate`: _locate a file in Linux system_
 
-- `cat`: _display contents of a file_
+- `cat`: _concatenate and print files_
+
+    - flags with cat:-
+
+        - `-b`: _Number the non-blank output lines(starting with 1)_
+
+        - `-n`: _Number all output lines even the blank ones_
+
+        - `-E`: _Display $ at end of each line_
 
 - `sudo`: _for command to be done in root or administrative privileges_
 
 - `mkdir`: _for creating a folder_
+
+    - flags with mkdir:-
+
+        - `-v`: _Print a message for each created directory_
+
+        - `-p`: _No error if existing,make parent directories as needed_
 
 - `rm`: _for deleting folder or file_
 
@@ -90,6 +104,11 @@
 - `kill`: _to send a signal to process. by default, the message is sent as termination signal_
 
 - `echo`: _to display line of text/string that are passed as an argument_
+    - flags with echo:-
+
+    - `-n`: _do not append a newline_
+
+    - `-E`: _Explicitly suppress interpretation of backslash escapes_
 
 - `grep`: _to search a file for particular pattern of characters_
 
@@ -178,3 +197,17 @@
 	
     - `-c`: _cancel a pending shutdown_
  
+- `exit`: _Close the terminal window or end the execution of a shell script_
+
+- `history`: _Display or manipulate the history list(history list contains the commands you have previously issued on terminal)_
+
+    - flags with history:-
+        - `-c`: _clear the history list_
+
+        - `-w`: _write the current history to the history file_
+
+        - `-r`: _read the history file and append contents to history list_
+
+- `!!`: _repeats your previous command_
+
+
