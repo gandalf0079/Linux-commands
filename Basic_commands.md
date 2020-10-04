@@ -210,4 +210,21 @@
 
 - `!!`: _repeats your previous command_
 
+- `whereis`: _searches the paths of binary files, manual and sources for files matching the criteria provided_
+
+  - flags with whereis:-
+    - `-b`: _search only for binaries_
+	
+    - `-m`: _search only for manuals_
+	
+    - `-s`: _search only for sources_
+
+    - `-h` or `--help`: _display help text and exit_
+
+    - `-v` or `--version`: _display version information and exit_
+
+- `which`: _searches for a command in the PATH and gives you the first one it finds_
+
+  - flags with which:-
+    - `-a`: _if commands with the same name exist in more than one path, specify the -a parameter so that which continues its search_
 
