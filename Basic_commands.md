@@ -228,3 +228,49 @@
   - flags with which:-
     - `-a`: _if commands with the same name exist in more than one path, specify the -a parameter so that which continues its search_
 
+- `wc`: _print line, word, and byte counts for file_
+
+  - flags with wc:-
+    - `-l` or `--lines`: _print the line counts_
+	
+    - `-c` or `--bytes`: _print the byte counts_
+	
+    - `-m` or `--chars`: _print the character counts_
+
+    - `-L` or `--max-line-length`: _print the maximum display width_
+
+    - `-w` or `--words`: _print the word counts_
+
+    - `--help`: _display help text and exit_
+
+    - `--version`: _display version information and exit_
+
+- `cut`: _allows to select fields_
+
+  - flags with cut:-
+    - `-d DELIM` or `--delimiter=DELIM`: _use DELIM as delimiter instead of TAB_
+	
+    - `-f FIELD_NUMBER[,FIELD_NUMBER_LIST]`: _select only these fields_
+	
+    - `-z`: _line delimiter is NUL not newline_
+
+    - `-s`: _do not print lines not containing delimiters_
+
+    - `--help`: _display help text and exit_
+
+    - `--version`: _display version information and exit_
+
+- `uniq`: _report or omit repeated lines_
+
+  - flags with uniq:-
+    - `-c` or `--count`: _prefix lines by the number of occurrences_
+	
+    - `-i`: _ignore differences in case when comparing_
+	
+    - `-d`: _only print duplicate lines, one for each group_
+
+    - `-u`: _only print unique lines_
+
+    - `--help`: _display help text and exit_
+
+    - `--version`: _display version information and exit_
