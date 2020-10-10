@@ -43,6 +43,8 @@
 
 - `touch`: _create file_
 
+- `nslookup`: _to get domain name or IP address_
+
 - `cp`: _copy file to a location_
 
 - `mv`: _move file to a location_
