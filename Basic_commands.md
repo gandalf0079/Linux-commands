@@ -43,17 +43,33 @@
 
 - `touch`: _create file_
 
+- `nslookup`: _to get domain name or IP address_
+
 - `cp`: _copy file to a location_
 
 - `mv`: _move file to a location_
 
 - `locate`: _locate a file in Linux system_
 
-- `cat`: _display contents of a file_
+- `cat`: _concatenate and print files_
+
+    - flags with cat:-
+
+        - `-b`: _Number the non-blank output lines(starting with 1)_
+
+        - `-n`: _Number all output lines even the blank ones_
+
+        - `-E`: _Display $ at end of each line_
 
 - `sudo`: _for command to be done in root or administrative privileges_
 
 - `mkdir`: _for creating a folder_
+
+    - flags with mkdir:-
+
+        - `-v`: _Print a message for each created directory_
+
+        - `-p`: _No error if existing,make parent directories as needed_
 
 - `rm`: _for deleting folder or file_
 
@@ -87,6 +103,25 @@
 
 - `clear`: _to clear the terminal_
 
+- `kill`: _to send a signal to process. by default, the message is sent as termination signal_
+
+- `echo`: _to display line of text/string that are passed as an argument_
+    - flags with echo:-
+
+    - `-n`: _do not append a newline_
+
+    - `-E`: _Explicitly suppress interpretation of backslash escapes_
+
+- `grep`: _to search a file for particular pattern of characters_
+
+    - flags with grep:-
+    
+        - `-i`: _ignores the cases for matching_
+        
+        - `-n`: _display the matched line and corresponding line number_
+        
+        - `-r`: _recursively read all the files under each directory_
+        
 - `dig domain`: _get DNS for domain_
 
 - `wget -c file`: _continue stopped download_
@@ -163,4 +198,81 @@
     - `--no-wall`: _don't send wall message before halt/power-off/reboot_
 	
     - `-c`: _cancel a pending shutdown_
-   
+ 
+- `exit`: _Close the terminal window or end the execution of a shell script_
+
+- `history`: _Display or manipulate the history list(history list contains the commands you have previously issued on terminal)_
+
+    - flags with history:-
+        - `-c`: _clear the history list_
+
+        - `-w`: _write the current history to the history file_
+
+        - `-r`: _read the history file and append contents to history list_
+
+- `!!`: _repeats your previous command_
+
+- `whereis`: _searches the paths of binary files, manual and sources for files matching the criteria provided_
+
+  - flags with whereis:-
+    - `-b`: _search only for binaries_
+	
+    - `-m`: _search only for manuals_
+	
+    - `-s`: _search only for sources_
+
+    - `-h` or `--help`: _display help text and exit_
+
+    - `-v` or `--version`: _display version information and exit_
+
+- `which`: _searches for a command in the PATH and gives you the first one it finds_
+
+  - flags with which:-
+    - `-a`: _if commands with the same name exist in more than one path, specify the -a parameter so that which continues its search_
+
+- `wc`: _print line, word, and byte counts for file_
+
+  - flags with wc:-
+    - `-l` or `--lines`: _print the line counts_
+	
+    - `-c` or `--bytes`: _print the byte counts_
+	
+    - `-m` or `--chars`: _print the character counts_
+
+    - `-L` or `--max-line-length`: _print the maximum display width_
+
+    - `-w` or `--words`: _print the word counts_
+
+    - `--help`: _display help text and exit_
+
+    - `--version`: _display version information and exit_
+
+- `cut`: _allows to select fields_
+
+  - flags with cut:-
+    - `-d DELIM` or `--delimiter=DELIM`: _use DELIM as delimiter instead of TAB_
+	
+    - `-f FIELD_NUMBER[,FIELD_NUMBER_LIST]`: _select only these fields_
+	
+    - `-z`: _line delimiter is NUL not newline_
+
+    - `-s`: _do not print lines not containing delimiters_
+
+    - `--help`: _display help text and exit_
+
+    - `--version`: _display version information and exit_
+
+- `uniq`: _report or omit repeated lines_
+
+  - flags with uniq:-
+    - `-c` or `--count`: _prefix lines by the number of occurrences_
+	
+    - `-i`: _ignore differences in case when comparing_
+	
+    - `-d`: _only print duplicate lines, one for each group_
+
+    - `-u`: _only print unique lines_
+
+    - `--help`: _display help text and exit_
+
+    - `--version`: _display version information and exit_
