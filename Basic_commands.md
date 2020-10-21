@@ -276,3 +276,11 @@
     - `--help`: _display help text and exit_
 
     - `--version`: _display version information and exit_
+    
+   - 'ifconfig' _the most important command from networks commands_
+   
+   - flags with ifconfig:_
+   - `-a`: _all interfaces will be shown(not active too)_
+   - `-s`: _shortlist_
+   - `-v`: _more errors knowledge_
+   
