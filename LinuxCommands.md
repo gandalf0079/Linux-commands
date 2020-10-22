@@ -246,6 +246,8 @@ Here are the Linux Commands:
 
 >>scp- This command enables you to securely copy files between hosts on a network.
 
+>>>sed- This command allows you to make changes to textfiles, such as mass search & replace operations from the commandline.
+
 >>shutdown- This command schedules a time for the system to be powered down. It may be used to halt, power-off or reboot the machine
 
 >>sleep- This command is used to delay or pause (specifically execution of a command) for a specified amount of time.
