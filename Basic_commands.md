@@ -37,17 +37,39 @@
         
         - `-d $PWD/*`: _list files and directories with full path_
 
-- `cd`: _to go to a directory_
+- `cd`: _Change the shell working directory_
 
+    - flags with cd:-
+    
+         - `-L`: _force symbolic links to be followed_
+         
+         - `-P`: _use physical directory structure without following symbolic links_
+    
 - `cd ..`: _go back_
 
 - `touch`: _create file_
 
+    - flags with touch:-
+
+        - `-a`: _Change only the access time_
+
+        - `-c`: _Do not create any files_
+        
+        - `-m`: _Change only the modification time_
+        
 - `nslookup`: _to get domain name or IP address_
 
 - `cp`: _copy file to a location_
 
 - `mv`: _move file to a location_
+
+    - flags with mv:-
+
+        - `-f`: _do not prompt before overwriting_
+
+        - `-i`: _prompt before overwriting_
+        
+        - `-n`: _do not overwrite an existing file_
 
 - `locate`: _locate a file in Linux system_
 
@@ -70,6 +92,10 @@
         - `-v`: _Print a message for each created directory_
 
         - `-p`: _No error if existing,make parent directories as needed_
+        
+         - `-m`: _Set file mode_
+
+- `rmdir`: _deleting an empty directory_
 
 - `rm`: _for deleting folder or file_
 
