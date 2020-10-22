@@ -289,12 +289,12 @@
   - flags with sed:-
     - `-n, --silent, ---quiet`: suppress printing of pattern space_
  
-    - `-e script`: add the script to the commands to be executed_
+    - `-e script`: _add the script to the commands to be executed_
 
-    - `-f script-file`: add the contents of the script-file to the commands to be executed_
+    - `-f script-file`: _add the contents of the script-file to the commands to be executed_
  
-    - `-i`: edit the file in place, ie: make changes to the source file as opposed to writing out a new file._
+    - `-i`: _edit the file in place, ie: make changes to the source file as opposed to writing out a new file._
 
-    - `-r`: use extended regular expressions in the script_
+    - `-r`: _`use extended regular expressions in the script_
 
    
