@@ -284,3 +284,12 @@
    - `-s`: _shortlist_
    - `-v`: _more errors knowledge_
    
+
+- `zip`: _compression and file packaging utility for Unix_
+
+  - flags with zip:
+    - `-d`: _removes the file from the zip archive_
+    - `-u`: _updates the file in the zip archive_
+    - `-m`: _deletes the original files after zipping_
+    - `-r`: _recursively zips the files in a directory_
+    - `-x`: _excludes the files in creating the zip_
