@@ -284,3 +284,11 @@
    - `-s`: _shortlist_
    - `-v`: _more errors knowledge_
    
+
+- `unzip`: _list, test and extract compressed files in a ZIP archive_
+
+  - flags with unzip:
+    - `-x`: _an optional list of archive members to be excluded from processing_
+    - `-d`: _an optional directory to which to extract files_
+    - `-f`: _freshen existing files, i.e., extract only those files that already exist on disk and that are newer than the disk copies_
+    - `-x`: _list archive files (short format)_
