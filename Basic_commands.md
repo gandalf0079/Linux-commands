@@ -284,3 +284,11 @@
    - `-s`: _shortlist_
    - `-v`: _more errors knowledge_
    
+- `ps`: _(Process status) can be used to see/list all the running processes_
+
+  - flags with ps:
+    - `-f`: _full information_
+    - `<id>`: _filter by a single process id_
+    - `-a`: _shows information about all users_
+    - `-x`: _hows information about processes without terminals_
+    - `-e`: _displays extended information_
