@@ -283,7 +283,6 @@
    - `-a`: _all interfaces will be shown(not active too)_
    - `-s`: _shortlist_
    - `-v`: _more errors knowledge_
-   
 
 - `zip`: _compression and file packaging utility for Unix_
 
@@ -293,3 +292,12 @@
     - `-m`: _deletes the original files after zipping_
     - `-r`: _recursively zips the files in a directory_
     - `-x`: _excludes the files in creating the zip_
+
+- `ps`: _(Process status) can be used to see/list all the running processes_
+
+  - flags with ps:
+    - `-f`: _full information_
+    - `<id>`: _filter by a single process id_
+    - `-a`: _shows information about all users_
+    - `-x`: _hows information about processes without terminals_
+    - `-e`: _displays extended information_
