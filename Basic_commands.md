@@ -262,6 +262,14 @@
 
     - `--version`: _display version information and exit_
 
+- `top`: _provides a dynamic real-time view of a running system, as it can display system summary information as well as a list of processes or threads currently being managed by the Linux kernel_
+
+  - flags with top:
+    - `-b`: _starts top in batch mode, which could be useful for sending output from top to other programs or to a file_
+    - `-d`: _specifies the delay between screen updates, and overrides the corresponding value in one's personal configuration file or the startup default_
+    - `-H`: _instructs top to display individual threads_
+    - `-n`: _specifies the maximum number of iterations, or frames, top should produce before ending_
+
 - `uniq`: _report or omit repeated lines_
 
   - flags with uniq:-
@@ -284,10 +292,11 @@
    - `-s`: _shortlist_
    - `-v`: _more errors knowledge_
    
-- `top`: _provides a dynamic real-time view of a running system, as it can display system summary information as well as a list of processes or threads currently being managed by the Linux kernel_
+- `ps`: _(Process status) can be used to see/list all the running processes_
 
-  - flags with top:
-    - `-b`: _starts top in batch mode, which could be useful for sending output from top to other programs or to a file_
-    - `-d`: _specifies the delay between screen updates, and overrides the corresponding value in one's personal configuration file or the startup default_
-    - `-H`: _instructs top to display individual threads_
-    - `-n`: _specifies the maximum number of iterations, or frames, top should produce before ending_
+  - flags with ps:
+    - `-f`: _full information_
+    - `<id>`: _filter by a single process id_
+    - `-a`: _shows information about all users_
+    - `-x`: _hows information about processes without terminals_
+    - `-e`: _displays extended information_
