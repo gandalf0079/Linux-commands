@@ -15,17 +15,19 @@ A community-built repository which includes most of the basic command lines.
 
 </p>
 
-## What is this repository for?
+### Also, check out another repository accepting hacktoberfest PRs here at [Docker Commands](https://github.com/gandalf0079/Docker-commands)
+- It's empty right now. Populate it with Docker Commands
+#### What is this repository for?
 
 This is list of many useful basic linux command lines.
 
-## Who can contribute for this repository?
+#### Who can contribute for this repository?
 
 Anyone. Absolutely anyone can contribute to this repository. Please check the rules below before you make pull requests.
 
-# CONTRIBUTION
+#### CONTRIBUTION
 
-## How to contribute?
+##### How to contribute?
 
 - Add an issue to this repository stating the use of that command line.
 - Fork this repository and give a star.
@@ -34,8 +36,10 @@ Anyone. Absolutely anyone can contribute to this repository. Please check the ru
 - Create a Pull request
 - Feel free to improve the README.md
 
-## Rules
-### Please follow format used in `Basic_commands.md`
+#### Rules
+##### Please follow format used in `Basic_commands.md`
 - Please do not spam pull request for the sake of Hacktoberfest.
 - No duplicate entries. Please check if the command is existing before you submit.
 - Star this repository to show appreciation towards public efforts.
+
+
