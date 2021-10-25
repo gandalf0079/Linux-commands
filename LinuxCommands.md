@@ -16,7 +16,7 @@ Here are the Linux Commands:
 >>apt- This tool is a relatively new higher-level package manager for Debian/Ubuntu systems.
 
 >>apt-get- is a powerful and free front-end package manager for Debian/Ubuntu systems. It is used to install new software packages, remove available software                      packages, upgrade existing software packages as well as upgrade entire operating system.
-
+>>apt-install- this command in Debian/Ubuntu allow to specify one or more package names to install from the system’s software repositories. It will add new sofatware to the sysytem. 
 >>aptitude- is a powerful text-based interface to the Debian GNU/Linux package management system. Like apt-get and apt; it can be used to install, remove or upgrade              software packages on a system.
 
 >>arch- It is a simple command for displaying machine architecture or hardware name (similar to uname -m).
