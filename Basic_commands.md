@@ -317,3 +317,5 @@
     - `-a`: _shows information about all users_
     - `-x`: _hows information about processes without terminals_
     - `-e`: _displays extended information_
+
+- `factor`: _can be used to show a factor of a number
