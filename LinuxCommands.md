@@ -159,6 +159,7 @@ Here are the Linux Commands:
 
 >>kmod- This is used to manage Linux kernel modules. To list all currently loaded modules, type.
 
+>>kubectl- This is used to control the Kubernetes cluster manager.
 
 #l
 
