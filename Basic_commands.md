@@ -56,10 +56,10 @@
       - `-f, --force`: _ignore nonexistent files and arguments, never prompt_
       - `-i`: _prompt before every removal_
       - `I`: _prompt once before removing more than three files, or when removing recursively; less intrusive than -i, while still giving protection against most mistakes_
-		- `--interactive[=WHEN]`: _prompt according to WHEN: never, once (-I), or always (-i); without WHEN, prompt always_
-		- `--one-file-system`: _when removing a hierarchy recursively, skip any directory that is on a file system different from that of the corresponding command line argument_
-	      - `--no-preserve-root`: _do not treat '/' specially_
-	      - `--preserve-root`: _do not remove '/' (default)_
+  		- `--interactive[=WHEN]`: _prompt according to WHEN: never, once (-I), or always (-i); without WHEN, prompt always_
+  		- `--one-file-system`: _when removing a hierarchy recursively, skip any directory that is on a file system different from that of the corresponding command line argument_
+      - `--no-preserve-root`: _do not treat '/' specially_
+      - `--preserve-root`: _do not remove '/' (default)_
 		  - `-r, -R, --recursive`: _remove directories and their contents recursively_
 		  - `-d, --dir`: _remove empty directories_
 		  - `-v, --verbose`: _explain what is being done_
@@ -128,8 +128,7 @@
       - `-inum N` : _Search for files with inode number ‘N’_
       - `-links N` : _Search for files with ‘N’ links_
       - `-print` : _Display the path name of the files found by using the rest of the criteria_
-		
-		- `-empty` : _Search for empty files and directories_
+  		- `-empty` : _Search for empty files and directories_
 
 - `tail` : _to output the last part of files_
 
@@ -211,9 +210,7 @@
 
     - flags with cut:-
       - `-d DELIM` or `--delimiter=DELIM`: _use DELIM as delimiter instead of TAB_
-    	
       - `-f FIELD_NUMBER[,FIELD_NUMBER_LIST]`: _select only these fields_
-    	
       - `-z`: _line delimiter is NUL not newline_
       - `-s`: _do not print lines not containing delimiters_
       - `--help`: _display help text and exit_
