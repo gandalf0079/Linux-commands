@@ -1,4 +1,3 @@
-
 <h1 align="center">Basic Linux/Unix Commands</h1>
 
 - `pwd` : _to print current directory location_
@@ -6,36 +5,21 @@
 - `ls` : _to list contents of the current directory_
 
     - flags with ls:-
-    
-        - `-a`: _list all files including hidden ones (starting with '.')_
-        
-        - `--color`: _colored list[=always/never/auto]_
-        
-        - `-l`: _list with long format_
-        
-        - `-la`: _list long format along with hidden files_
-        
-        - `-lh`: _list long format with readable file size_
-        
-        - `-ls`: _list long format with file size_
-        
-        - `-r`: _list in reverse order_
-        
-        - `-R`: _list recursively directory tree_
-        
-        - `-s`: _list file size_
-        
-        - `-S`: _sort by file size_
-        
-        - `-t`: _sort by time & date_
-        
-        - `-X`: _sort by extension name_
-        
-        - `~`: _list user's home directory_
-        
-        - `-d */`: _list directories only_
-        
-        - `-d $PWD/*`: _list files and directories with full path_
+      - `-a`: _list all files including hidden ones (starting with '.')_
+      - `--color`: _colored list[=always/never/auto]_
+      - `-l`: _list with long format_
+      - `-la`: _list long format along with hidden files_
+      - `-lh`: _list long format with readable file size_
+      - `-ls`: _list long format with file size_
+      - `-r`: _list in reverse order_
+      - `-R`: _list recursively directory tree_
+      - `-s`: _list file size_
+      - `-S`: _sort by file size_
+      - `-t`: _sort by time & date_
+      - `-X`: _sort by extension name_
+      - `~`: _list user's home directory_
+      - `-d */`: _list directories only_
+      - `-d $PWD/*`: _list files and directories with full path_
 
 - `cd`: _to go to a directory_
 
@@ -54,33 +38,28 @@
 - `cat`: _concatenate and print files_
 
     - flags with cat:-
-
-        - `-b`: _Number the non-blank output lines(starting with 1)_
-
-        - `-n`: _Number all output lines even the blank ones_
-
-        - `-E`: _Display $ at end of each line_
+      - `-b`: _Number the non-blank output lines(starting with 1)_
+      - `-n`: _Number all output lines even the blank ones_
+      - `-E`: _Display $ at end of each line_
 
 - `sudo`: _for command to be done in root or administrative privileges_
 
 - `mkdir`: _for creating a folder_
 
     - flags with mkdir:-
-
-        - `-v`: _Print a message for each created directory_
-
-        - `-p`: _No error if existing,make parent directories as needed_
+      - `-v`: _Print a message for each created directory_
+      - `-p`: _No error if existing,make parent directories as needed_
 
 - `rm`: _for deleting folder or file_
 
     - flags with rm:-
-        - `-f, --force`: _ignore nonexistent files and arguments, never prompt_
-        - `-i`: _prompt before every removal_
-        - `I`: _prompt once before removing more than three files, or when removing recursively; less intrusive than -i, while still giving protection against most mistakes_
-		- `--interactive[=WHEN]`: _prompt according to WHEN: never, once (-I), or always (-i); without WHEN, prompt always_
-		- `--one-file-system`: _when removing a hierarchy recursively, skip any directory that is on a file system different from that of the corresponding command line argument_
-	      - `--no-preserve-root`: _do not treat '/' specially_
-	      - `--preserve-root`: _do not remove '/' (default)_
+      - `-f, --force`: _ignore nonexistent files and arguments, never prompt_
+      - `-i`: _prompt before every removal_
+      - `I`: _prompt once before removing more than three files, or when removing recursively; less intrusive than -i, while still giving protection against most mistakes_
+  		- `--interactive[=WHEN]`: _prompt according to WHEN: never, once (-I), or always (-i); without WHEN, prompt always_
+  		- `--one-file-system`: _when removing a hierarchy recursively, skip any directory that is on a file system different from that of the corresponding command line argument_
+      - `--no-preserve-root`: _do not treat '/' specially_
+      - `--preserve-root`: _do not remove '/' (default)_
 		  - `-r, -R, --recursive`: _remove directories and their contents recursively_
 		  - `-d, --dir`: _remove empty directories_
 		  - `-v, --verbose`: _explain what is being done_
@@ -103,25 +82,30 @@
 
 - `clear`: _to clear the terminal_
 
+- `jobs`: _display status of jobs_
+
+    - flags with jobs:-
+      - `-l`: _lists process IDs in addition to the normal information_
+      - `-n`: _lists only processes that have changed status since the last notification_
+      - `-p`: _lists process IDs only_
+      - `-r`: _restrict output to running jobs_
+      - `-s`: _restrict output to stopped jobs_
+
 - `kill`: _to send a signal to process. by default, the message is sent as termination signal_
 
 - `echo`: _to display line of text/string that are passed as an argument_
+
     - flags with echo:-
-
-    - `-n`: _do not append a newline_
-
-    - `-E`: _Explicitly suppress interpretation of backslash escapes_
+      - `-n`: _do not append a newline_
+      - `-E`: _Explicitly suppress interpretation of backslash escapes_
 
 - `grep`: _to search a file for particular pattern of characters_
 
     - flags with grep:-
-    
-        - `-i`: _ignores the cases for matching_
-        
-        - `-n`: _display the matched line and corresponding line number_
-        
-        - `-r`: _recursively read all the files under each directory_
-        
+      - `-i`: _ignores the cases for matching_
+      - `-n`: _display the matched line and corresponding line number_
+      - `-r`: _recursively read all the files under each directory_
+
 - `dig domain`: _get DNS for domain_
 
 - `wget -c file`: _continue stopped download_
@@ -141,181 +125,139 @@
 - `find` : _to search for files in a directory hierarchy_
 
     - flags with find:-
-    
-        - `-inum N` : _Search for files with inode number ‘N’_
-                
-        - `-links N` : _Search for files with ‘N’ links_
-        
-        - `-print` : _Display the path name of the files found by using the rest of the criteria_
-		
-		- `-empty` : _Search for empty files and directories_
+      - `-inum N` : _Search for files with inode number ‘N’_
+      - `-links N` : _Search for files with ‘N’ links_
+      - `-print` : _Display the path name of the files found by using the rest of the criteria_
+  		- `-empty` : _Search for empty files and directories_
 
 - `tail` : _to output the last part of files_
 
     - flags with tail:-
-    
-        - `-n` : _print last N number of lines_
-                
-        - `-f` : _for monitoring the file_
-        
-        - `-pid` : _Display the pid_
+      - `-n` : _print last N number of lines_
+      - `-f` : _for monitoring the file_
+      - `-pid` : _Display the pid_
 
 - `netstat` : _to displays various network related information such as network connections, routing tables, interface statistics, masquerade connections, multicast memberships etc._
 
     - flags with netstat:-
-    
-        - `-a`: _To List All Network Ports_
-        
-        - `-at`: _To List All TCP Ports_
-        
-        - `-s`: _To Show Statistics for All Ports_
-        
-        - `-au`: _To List UDP Ports connections_
-        
-        - `-l`: _To List all LISTENING Connections_
-        
-        - `-tp`: _To Display Service name with PID_
-        
-        - `-g`: _To Display IPv4 and IPv6 Information_
+      - `-a`: _To List All Network Ports_
+      - `-at`: _To List All TCP Ports_
+      - `-s`: _To Show Statistics for All Ports_
+      - `-au`: _To List UDP Ports connections_
+      - `-l`: _To List all LISTENING Connections_
+      - `-tp`: _To Display Service name with PID_
+      - `-g`: _To Display IPv4 and IPv6 Information_
 
 - `reboot`: _reboot the system_
 
 - `shutdown`: _shut down the system_
 
-  - flags with shutdown:-
-    - `--help`: _show help_
-	
-    - `--halt`: _halt the machine_
-	
-    - `--poweroff`: _power-off the machine_
-	
-    - `--reboot`: _Reboot the machine_
-	
-    - `-h`: _equivalent to --poweroff, overridden by --halt_
-	
-    - `-k`: _don't halt/power-off/reboot, just send warnings_
-	
-    - `--no-wall`: _don't send wall message before halt/power-off/reboot_
-	
-    - `-c`: _cancel a pending shutdown_
- 
+    - flags with shutdown:-
+      - `--help`: _show help_
+      - `--halt`: _halt the machine_
+      - `--poweroff`: _power-off the machine_
+      - `--reboot`: _Reboot the machine_
+      - `-h`: _equivalent to --poweroff, overridden by --halt_
+      - `-k`: _don't halt/power-off/reboot, just send warnings_
+      - `--no-wall`: _don't send wall message before halt/power-off/reboot_
+      - `-c`: _cancel a pending shutdown_
+
 - `exit`: _Close the terminal window or end the execution of a shell script_
 
 - `history`: _Display or manipulate the history list(history list contains the commands you have previously issued on terminal)_
 
     - flags with history:-
-        - `-c`: _clear the history list_
-
-        - `-w`: _write the current history to the history file_
-
-        - `-r`: _read the history file and append contents to history list_
+      - `-c`: _clear the history list_
+      - `-w`: _write the current history to the history file_
+      - `-r`: _read the history file and append contents to history list_
 
 - `!!`: _repeats your previous command_
 
 - `whereis`: _searches the paths of binary files, manual and sources for files matching the criteria provided_
 
-  - flags with whereis:-
-    - `-b`: _search only for binaries_
-	
-    - `-m`: _search only for manuals_
-	
-    - `-s`: _search only for sources_
-
-    - `-h` or `--help`: _display help text and exit_
-
-    - `-v` or `--version`: _display version information and exit_
+    - flags with whereis:-
+      - `-b`: _search only for binaries_
+      - `-m`: _search only for manuals_
+      - `-s`: _search only for sources_
+      - `-h` or `--help`: _display help text and exit_
+      - `-v` or `--version`: _display version information and exit_
 
 - `which`: _searches for a command in the PATH and gives you the first one it finds_
 
-  - flags with which:-
-    - `-a`: _if commands with the same name exist in more than one path, specify the -a parameter so that which continues its search_
+    - flags with which:-
+      - `-a`: _if commands with the same name exist in more than one path, specify the -a parameter so that which continues its search_
 
 - `wc`: _print line, word, and byte counts for file_
 
-  - flags with wc:-
-    - `-l` or `--lines`: _print the line counts_
-	
-    - `-c` or `--bytes`: _print the byte counts_
-	
-    - `-m` or `--chars`: _print the character counts_
-
-    - `-L` or `--max-line-length`: _print the maximum display width_
-
-    - `-w` or `--words`: _print the word counts_
-
-    - `--help`: _display help text and exit_
-
-    - `--version`: _display version information and exit_
+    - flags with wc:-
+      - `-l` or `--lines`: _print the line counts_
+      - `-c` or `--bytes`: _print the byte counts_
+      - `-m` or `--chars`: _print the character counts_
+      - `-L` or `--max-line-length`: _print the maximum display width_
+      - `-w` or `--words`: _print the word counts_
+      - `--help`: _display help text and exit_
+      - `--version`: _display version information and exit_
 
 - `unzip`: _list, test and extract compressed files in a ZIP archive_
 
-  - flags with unzip:
-    - `-x`: _an optional list of archive members to be excluded from processing_
-    - `-d`: _an optional directory to which to extract files_
-    - `-f`: _freshen existing files, i.e., extract only those files that already exist on disk and that are newer than the disk copies_
-    - `-x`: _list archive files (short format)_
-    
+    - flags with unzip:
+      - `-x`: _an optional list of archive members to be excluded from processing_
+      - `-d`: _an optional directory to which to extract files_
+      - `-f`: _freshen existing files, i.e., extract only those files that already exist on disk and that are newer than the disk copies_
+      - `-x`: _list archive files (short format)_
+
 - `cut`: _allows to select fields_
 
-  - flags with cut:-
-    - `-d DELIM` or `--delimiter=DELIM`: _use DELIM as delimiter instead of TAB_
-	
-    - `-f FIELD_NUMBER[,FIELD_NUMBER_LIST]`: _select only these fields_
-	
-    - `-z`: _line delimiter is NUL not newline_
-
-    - `-s`: _do not print lines not containing delimiters_
-
-    - `--help`: _display help text and exit_
-
-    - `--version`: _display version information and exit_
+    - flags with cut:-
+      - `-d DELIM` or `--delimiter=DELIM`: _use DELIM as delimiter instead of TAB_
+      - `-f FIELD_NUMBER[,FIELD_NUMBER_LIST]`: _select only these fields_
+      - `-z`: _line delimiter is NUL not newline_
+      - `-s`: _do not print lines not containing delimiters_
+      - `--help`: _display help text and exit_
+      - `--version`: _display version information and exit_
 
 - `top`: _provides a dynamic real-time view of a running system, as it can display system summary information as well as a list of processes or threads currently being managed by the Linux kernel_
 
-  - flags with top:
-    - `-b`: _starts top in batch mode, which could be useful for sending output from top to other programs or to a file_
-    - `-d`: _specifies the delay between screen updates, and overrides the corresponding value in one's personal configuration file or the startup default_
-    - `-H`: _instructs top to display individual threads_
-    - `-n`: _specifies the maximum number of iterations, or frames, top should produce before ending_
+    - flags with top:
+      - `-b`: _starts top in batch mode, which could be useful for sending output from top to other programs or to a file_
+      - `-d`: _specifies the delay between screen updates, and overrides the corresponding value in one's personal configuration file or the startup default_
+      - `-H`: _instructs top to display individual threads_
+      - `-n`: _specifies the maximum number of iterations, or frames, top should produce before ending_
 
 - `uniq`: _report or omit repeated lines_
 
-  - flags with uniq:-
-    - `-c` or `--count`: _prefix lines by the number of occurrences_
-	
-    - `-i`: _ignore differences in case when comparing_
-	
-    - `-d`: _only print duplicate lines, one for each group_
+    - flags with uniq:-
+      - `-c` or `--count`: _prefix lines by the number of occurrences_
+    	
+      - `-i`: _ignore differences in case when comparing_
+    	
+      - `-d`: _only print duplicate lines, one for each group_
+      - `-u`: _only print unique lines_
+      - `--help`: _display help text and exit_
+      - `--version`: _display version information and exit_
+- 'ifconfig' _the most important command from networks commands_
 
-    - `-u`: _only print unique lines_
-
-    - `--help`: _display help text and exit_
-
-    - `--version`: _display version information and exit_
-    
-   - 'ifconfig' _the most important command from networks commands_
-   
-   - flags with ifconfig:_
-   - `-a`: _all interfaces will be shown(not active too)_
-   - `-s`: _shortlist_
-   - `-v`: _more errors knowledge_
+    - flags with ifconfig:_
+       - `-a`: _all interfaces will be shown(not active too)_
+       - `-s`: _shortlist_
+       - `-v`: _more errors knowledge_
 
 - `zip`: _compression and file packaging utility for Unix_
 
-  - flags with zip:
-    - `-d`: _removes the file from the zip archive_
-    - `-u`: _updates the file in the zip archive_
-    - `-m`: _deletes the original files after zipping_
-    - `-r`: _recursively zips the files in a directory_
-    - `-x`: _excludes the files in creating the zip_
+    - flags with zip:
+      - `-d`: _removes the file from the zip archive_
+      - `-u`: _updates the file in the zip archive_
+      - `-m`: _deletes the original files after zipping_
+      - `-r`: _recursively zips the files in a directory_
+      - `-x`: _excludes the files in creating the zip_
 
 - `ps`: _(Process status) can be used to see/list all the running processes_
 
-  - flags with ps:
-    - `-f`: _full information_
-    - `<id>`: _filter by a single process id_
-    - `-a`: _shows information about all users_
-    - `-x`: _hows information about processes without terminals_
-    - `-e`: _displays extended information_
+    - flags with ps:
+      - `-f`: _full information_
+      - `<id>`: _filter by a single process id_
+      - `-a`: _shows information about all users_
+      - `-x`: _hows information about processes without terminals_
+      - `-e`: _displays extended information_
 
-- `factor`: _can be used to show a factor of a number
+- `factor`: _can be used to show a factor of a number_

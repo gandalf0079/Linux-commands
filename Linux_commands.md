@@ -102,6 +102,8 @@ Here are the Linux Commands:
 
 >>factor- This command is used to show the prime factors of a number.
 
+>>fg- Move job to the foreground. If no JOB_SPEC is given as an argument, the current job is used. If there are no jobs it return an error message "no such job"
+
 >>find- This command lets you search for files in a directory as well as its sub-directories. It searches for files by attributes such as permissions, users, groups,           file type, date, size and other possible criteria.
 
 >>free- This command shows the system memory usage (free, used, swapped, cached, etc.) in the system including swap space. Use the '-h' option to display output in             human friendly format.
@@ -150,6 +152,10 @@ Here are the Linux Commands:
 >>iw- This command is used to manage wireless devices and their configuration.
 
 >>iwlist- This command displays detailed wireless information from a wireless interface.
+
+#j
+
+>>jobs- Display status of jobs. Lists the active jobs. JOBSPEC restricts output to that job. Without options, the status of all active jobs is displayed.
 
 #k
 
